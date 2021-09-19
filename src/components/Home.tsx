@@ -6,11 +6,11 @@ import Card from './Card';
 const Home = () => {
   return (
     <div className='flex flex-col items-center justify-between mt-24 xs:mt-48 xl:flex-row'>
-      <div className=''>
+      <div className='self-start xl:self-center xl:w-2/5'>
         <h1 className='text-5xl font-medium tracking-wide'>
           Modern interior
         </h1>
-        <p className='mt-10 text-2xl '>
+        <p className='mt-10 text-2xl xl:w-100'>
           A full-Service residential & commercial
           interior design and staging company
           offering professional organizing &
@@ -24,9 +24,9 @@ const Home = () => {
           <BsArrowRight className='inline-block w-6 h-6 ml-2' />
         </a>
       </div>
-      <div className='relative mt-20 xl:mt-0'>
+      <div className='relative mt-20 xl:w-3/5 xl:mt-0 '>
         <img
-          className='rounded md:w-150 md:h-110'
+          className='rounded'
           src={decor}
           alt='Decor'
         />
