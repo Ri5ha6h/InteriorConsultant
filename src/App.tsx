@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <div className='relative h-screen p-10 text-white'>
+    <div className='text-white p-7'>
       <Navbar />
       <Home />
       <div className='flex items-end justify-center mt-36 xs:mt-16'>
