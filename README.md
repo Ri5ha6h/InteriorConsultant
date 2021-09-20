@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Ri5ha6h/InteriorConsultant">
       Solution
     </a>
     <span> | </span>
