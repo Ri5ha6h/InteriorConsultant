@@ -4,15 +4,16 @@ import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <div className='text-white p-7'>
+    <div className='p-3 text-white md:p-7'>
       <Navbar />
       <Home />
-      <div className='flex items-end justify-center mt-36 xs:mt-16'>
+      <div className='flex items-end justify-center mt-20 xs:mt-16'>
         <p>
           created by{' '}
           <a
             className='border-b'
-            href='https://github.com/Ri5ha6h/InteriorConsultant'
+            href='https://devchallenges.io/portfolio/Ri5ha6h'
+            target='_blank'
           >
             Rishabh Malik
           </a>{' '}
