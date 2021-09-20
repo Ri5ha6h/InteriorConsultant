@@ -9,7 +9,7 @@ const Card: FC<CardProps> = ({ className }) => {
   return (
     <div
       className={
-        'flex flex-col justify-center mt-12 xs:mt-0 h-52 w-72 p-4 bg-white text-black xs:text-white xs:bg-black rounded-md ' +
+        'flex flex-col justify-center mt-12 xs:mt-0 h-48 w-80 p-4 bg-white text-black xs:text-white xs:bg-black rounded-md ' +
         className
       }
     >

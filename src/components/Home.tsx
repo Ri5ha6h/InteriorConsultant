@@ -24,13 +24,13 @@ const Home = () => {
           <BsArrowRight className='inline-block w-6 h-6 ml-2' />
         </a>
       </div>
-      <div className='relative mt-20 lg:w-3/5 lg:mt-0 '>
+      <div className='relative mt-14 lg:w-3/5 lg:mt-0 '>
         <img
           className='rounded'
           src={decor}
           alt='Decor'
         />
-        <Card className=' xs:absolute right-16 top-60 sm:top-80 md:top-96' />
+        <Card className='-bottom-9 right-12 lg:-bottom-14 xs:absolute lg:right-10' />
       </div>
     </div>
   );
