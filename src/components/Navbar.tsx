@@ -28,7 +28,7 @@ const Navbar = () => {
         </ul>
       </div>
       {menu && (
-        <div className='absolute inset-0 z-10 mx-8 my-6 bg-black'>
+        <div className='absolute inset-0 z-10 bg-black'>
           <div className='relative p-3'>
             <AiOutlineClose
               className='absolute right-0 w-10 h-10 text-white cursor-pointer'
