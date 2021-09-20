@@ -4,10 +4,10 @@ import Navbar from './components/Navbar';
 
 const App = () => {
   return (
-    <div className='relative h-screen p-10 text-white bg-black'>
+    <div className='relative h-screen p-10 text-white'>
       <Navbar />
       <Home />
-      <div className='flex items-end justify-center mt-36 xs:mt-44 xl:mt-60'>
+      <div className='flex items-end justify-center mt-36 xs:mt-16'>
         <p>
           created by{' '}
           <a
