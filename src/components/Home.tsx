@@ -5,8 +5,8 @@ import Card from './Card';
 
 const Home = () => {
   return (
-    <div className='flex flex-col items-center justify-between mt-24 xs:mt-48 xl:flex-row'>
-      <div className='self-start xl:self-center xl:w-2/5'>
+    <div className='flex flex-col items-center justify-between mt-24 xs:mt-216 lg:flex-row'>
+      <div className='self-start xl:self-center lg:w-2/5'>
         <h1 className='text-5xl font-medium tracking-wide'>
           Modern interior
         </h1>
@@ -24,7 +24,7 @@ const Home = () => {
           <BsArrowRight className='inline-block w-6 h-6 ml-2' />
         </a>
       </div>
-      <div className='relative mt-20 xl:w-3/5 xl:mt-0 '>
+      <div className='relative mt-20 lg:w-3/5 lg:mt-0 '>
         <img
           className='rounded'
           src={decor}
